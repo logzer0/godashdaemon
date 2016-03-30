@@ -33,11 +33,11 @@ var (
 
 func main() {
 	loc, _ := time.LoadLocation("America/Chicago")
-	ticker := time.NewTicker(time.Minute * 1)
+	ticker := time.NewTicker(time.Hour * 24)
 	go func() {
 		for _ = range ticker.C {
 			currentTime := time.Now().In(loc)
-			cutOfftime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 21, 50, 0, 0, loc)
+			cutOfftime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 10, 0, 0, 0, loc)
 			if time.Now().After(cutOfftime) {
 				if state {
 					//All is good. Do nothing
