@@ -1,0 +1,3 @@
+# godashdaemon
+Deamon for godash
+-----------------
