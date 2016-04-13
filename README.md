@@ -1,3 +1,2 @@
 # godashdaemon
 Deamon for godash
------------------
