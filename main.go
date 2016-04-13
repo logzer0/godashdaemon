@@ -81,9 +81,9 @@ var (
 )
 
 const (
-	consumerKey    = "KZpZPlN9tAMJPQuEwkWW9eJJW"
-	consumerSecret = "xpPuFe2a8NA8uXASIrFCiJvpxw4EYImq18y8lDH3MpNjfelEQz"
-	accessToken    = "41533711-lsMZ9lzAy336cQ7Mf8qlk0YXxTBXmFLGSky5VyVW7"
-	accessSecret   = "yNywgviBcfVeNCFbKB6j6kXslutwHfc1FDn8Du8pqG4vf"
-	macAddress     = " 74:c2:46:84:f5:ee"
+	consumerKey    = "<from twitter>"
+	consumerSecret = "<from twitter>"
+	accessToken    = "<from twitter>"
+	accessSecret   = "<from twitter>"
+	macAddress     = "<from twitter>"
 )
